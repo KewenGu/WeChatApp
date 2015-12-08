@@ -8,7 +8,7 @@ var fs = require('fs');
 var bodyParser = require('body-parser');
 
 var app = express();
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 8000;
 var urlencodedParser = bodyParser.urlencoded({extended: false});
 var movieList = fs.readFileSync("./public/src/movie-list.txt").toString().trim().split("\n");
 var modifiedList = [];
