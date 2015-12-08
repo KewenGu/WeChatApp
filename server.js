@@ -8,7 +8,7 @@ var fs = require('fs');
 var bodyParser = require('body-parser');
 
 var app = express();
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8080;
 var urlencodedParser = bodyParser.urlencoded({extended: false});
 var movieList = fs.readFileSync("./public/src/movie-list.txt").toString().trim().split("\n");
 var modifiedList = [];
@@ -25,19 +25,16 @@ app.get('/', function(req, res) {
 
 
 app.get('/list', function(req, res) {
-//  console.log(modifiedList);
   res.send(JSON.stringify(modifiedList));
 });
 
 
 app.post('/full-list', urlencodedParser, function(req, res) {
-//  console.log(req.body);
   modifiedList = movieList;
 });
 
 
 app.post('/filter', urlencodedParser, function(req, res) {
-//  console.log(req.body);
   modifiedList = [];
   for (i = 0; i < movieList.length; i++) {
     pos = movieList[i].toLowerCase().search(req.body.keyword.toLowerCase());
