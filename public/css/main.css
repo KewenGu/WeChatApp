@@ -18,39 +18,24 @@ body
 
 body > article
 {
-  	text-align: center;
+  text-align: center;
 }
 
 h1
 {
 	text-transform: uppercase;
-  	font-family: 'Lobster', cursive;
+  font-family: 'Lobster', cursive;
 	font-size: 5em;
 	font-weight: 700;
-  	letter-spacing: 4px;
-  	margin: 100px 0 100px;
+  letter-spacing: 4px;
+  margin: 40px 0 40px;
 }
 
 .header-note
 {
 	font-size: 1em;
-  	margin: 0 0 5px 0;
+  margin: 0 0 5px 0;
 }
-
-#video-player p
-{
-	text-align: center;
-	font-size: 2em;
-}
-
-#video-player
-{
-	width: 854px;
-	height: 480px;
-	margin: 0 auto 400px auto;
-	background-color: rgba(50, 50, 50, 0.4);
-}
-
 
 form
 {
@@ -98,11 +83,11 @@ button
 {
 	font-size: 2em;
 	font-style: italic;
-	margin: 600px 0 390px;
+	margin: 430px 0 390px;
 }
 
 .copyright
 {
-  	font-size: 0.8em;
-  	margin: auto auto 0 auto;
+  font-size: 0.8em;
+  margin: auto auto 0 auto;
 }
