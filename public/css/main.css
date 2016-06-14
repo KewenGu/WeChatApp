@@ -1,0 +1,32 @@
+
+body
+{
+	font-family: Georgia, sans-serif;
+	background: url(../src/main-bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+
+.container
+{
+	margin: 0 auto;
+}
+
+#tabs
+{
+	width: 85%;
+	display: block;
+	align-content: center;
+	margin: 0 auto;
+}
+
+
+
+#copyright
+{
+  	font-size: 0.8em;
+  	margin: 100px auto 0 auto;
+}
