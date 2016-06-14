@@ -1,108 +1,32 @@
-/* Author: Kewen Gu */
-/* URL: https://kgu-cs4241-main.herokuapp.com */
-
-html
-{
-	background: url(../src/main-bg.jpg);
-	background-size: cover;
-	background-position: center;
-	width: auto;
-	height: auto;
-	color: ivory;
-}
 
 body
 {
 	font-family: Georgia, sans-serif;
-}
-
-body > article
-{
-  	text-align: center;
-}
-
-h1
-{
-	text-transform: uppercase;
-  	font-family: 'Lobster', cursive;
-	font-size: 5em;
-	font-weight: 700;
-  	letter-spacing: 4px;
-  	margin: 100px 0 100px;
-}
-
-.header-note
-{
-	font-size: 1em;
-  	margin: 0 0 5px 0;
-}
-
-#video-player p
-{
+	background: url(../src/main-bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	text-align: center;
-	font-size: 2em;
 }
 
-#video-player
+.container
 {
-	width: 854px;
-	height: 480px;
-	margin: 0 auto 400px auto;
-	background-color: rgba(50, 50, 50, 0.4);
+	margin: 0 auto;
 }
 
-
-form
+#tabs
 {
-	margin: 10px 0 10px 0;
-}
-
-.text-field
-{
-	position: relative;
-	font-family: Georgia, sans-serif;
-	font-size: 20px;
-	letter-spacing: 2px;
-	width: 200px;
-	height: 20px;
-}
-
-button
-{
-	cursor: pointer;
-}
-
-.button
-{
-	cursor: pointer;
+	width: 85%;
+	display: block;
+	align-content: center;
+	margin: 0 auto;
 }
 
 
-#movie-list
-{
-	margin: 0 35% 30px 35%;
-	text-align: left;
-}
 
-#movie-list input
-{
-	float: right;
-	border: none;
-	background: none;
-	font-size: 14px;
-	font-weight: bolder;
-}
-
-
-.quote
-{
-	font-size: 2em;
-	font-style: italic;
-	margin: 600px 0 390px;
-}
-
-.copyright
+#copyright
 {
   	font-size: 0.8em;
-  	margin: auto auto 0 auto;
+  	margin: 100px auto 0 auto;
 }
