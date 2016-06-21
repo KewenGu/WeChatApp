@@ -1,15 +1,15 @@
 {
-  "name": "GFP-4241-node",
+  "name": "WeChatApp",
   "version": "0.0.1",
-  "description": "WPI CS 4241 assignment 3",
-  "author": "Hoang Ngo",
+  "description": "wechat app",
+  "author": "Kewen Gu",
   "private": true,
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "body-parser": "^1.14.1",
-    "connect": "^3.4.0",
-    "express": "^4.13.3"
+    "body-parser": "^1.15.2",
+    "connect": "^3.4.1",
+    "express": "^4.14.0"
   }
 }
