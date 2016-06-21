@@ -10,23 +10,42 @@ body
 	text-align: center;
 }
 
-.container
+.container h1
 {
-	margin: 0 auto;
+  font-size: 8em;
+}
+
+.container p
+{
+  font-size: 3em;
+}
+
+.jumbotron
+{
+  background-size: cover;
+  margin: 0;
 }
 
 #tabs
 {
-	width: 85%;
+  width:100%;
 	display: block;
 	align-content: center;
 	margin: 0 auto;
 }
 
-
+.btn-customize
+{
+  padding: 30px 60px;
+  font-size: 7em;
+}
 
 #copyright
 {
-  	font-size: 0.8em;
-  	margin: 100px auto 0 auto;
+  	font-size: 1.5em;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
 }
